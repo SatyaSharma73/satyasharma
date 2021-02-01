@@ -33,6 +33,10 @@ h4 {
   color:white;
   text-align:center;
 }
+.work1{
+  height: 480px;
+  width: 1020px;
+}
 p {
   font-family:'ProximaNova';
   font-size:30px;
@@ -799,9 +803,10 @@ span.title {
   font-size:15px;
 }
 .footTitle {
-  font-family:'Sacramento',cursive;
+  font-family: 'Nothing You Could Do', cursive;
+
   text-transform:none;
   font-weight:400;
-  color:#41b0bf !important;
-  font-size: 3em !important;
+  color:black !important;
+  font-size: 2em !important;
 }
