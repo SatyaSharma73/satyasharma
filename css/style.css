@@ -779,9 +779,9 @@ span.title {
   font-size:3em !important;
   color:#3b5998;
 }
-.fa-youtube-play {
+.fa-github-square {
   font-size:3em !important;
-  color: red;
+  color: black;
 }
 .fa-linkedin-square {
   font-size:3em !important;
@@ -791,7 +791,7 @@ span.title {
   font-size:3em !important;
   color:#1b95e0;
 }
-.fa-envelope-o {
+.fa-instagram {
   font-size:3em !important;
   color:#d14836;
 }
