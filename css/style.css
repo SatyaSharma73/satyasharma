@@ -600,6 +600,10 @@ hr {
   ul.menu li {
     margin-left:20px;
   }
+  .work1{
+    height: 280px;
+    width: 580px;
+  }
 }
 @media only screen and (max-width:40em) {
   ul.menu {
@@ -611,15 +615,37 @@ hr {
   ul.menu li {
     margin-left:10px;
   }
+  .work1{
+    height: 270px;
+    width: 480px;
+  }
+  .git-gif{
+    width: 50px;
+  }
+  .lastgif{
+    width: 100px;
+  }
 }
 @media only screen and (max-width:320px) {
   section.intro h1 {
     font-size:38px !important;
   }
+  .git-gif{
+    width: 50px;
+  }
+  .lastgif{
+    width: 100px;
+  }
 }
 @media only screen and (max-width:64em) {
   .opl,.cssda {
     display:none;
+  }
+  .git-gif{
+    width: 50px;
+  }
+  .lastgif{
+    width: 100px;
   }
   section.intro,.wrapper,section.about,section.projects,section.sayhello {
     border:none;
@@ -735,13 +761,7 @@ hr {
   margin:auto;
   text-align:center;
 }
-.pentagon {
-  width:300px;
-  height:300px;
-  margin:auto;
-  padding:3px 3px 28px 3px;
-  display:inline-block;
-}
+
 .logo {
   margin-top:75px !important;
   margin-bottom:20px !important;
@@ -809,4 +829,99 @@ span.title {
   font-weight:400;
   color:black !important;
   font-size: 2em !important;
+}
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.skillss{
+    text-align: center;
+    color: #333;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+.skillss .section-head:before,
+.skillss .section-head:after
+{background-color: #333}
+
+.skillss .skill{
+    width: 70%;
+    margin: 80px auto;
+    text-align: left;
+}
+
+.skillss .skill > div{
+    width: 100%;
+    height: 35px;
+    background: #eee;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.skillss .skill > div span:first-child{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    min-width: 20%;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.skillss .skill > div:first-of-type span:first-child{background: #BD4B00}
+.skillss .skill > div:nth-of-type(2) span:first-child{background: #2573A6}
+.skillss .skill > div:nth-of-type(3) span:first-child{background: #283848}
+.skillss .skill > div:nth-of-type(4) span:first-child{background: #3F3F54}
+.skillss .skill > div:nth-of-type(5) span:first-child{background: #10467E}
+.skillss .skill > div:nth-of-type(6) span:first-child{background: #239C56}
+
+
+
+.skillss .skill > div span:last-child{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 20%;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    background: #00f;
+    border-radius: 0 5px 5px 0;
+    text-align: right;
+    transition: all 3s ease
+}
+
+.skillss .skill > div:first-of-type span:last-child{background: #E67E22}
+.skillss .skill > div:nth-of-type(2) span:last-child{background: #3498DB}
+.skillss .skill > div:nth-of-type(3) span:last-child{background: #2C3E50}
+.skillss .skill > div:nth-of-type(4) span:last-child{background: #5A68A5}
+.skillss .skill > div:nth-of-type(5) span:last-child{background: #4288D0}
+.skillss .skill > div:nth-of-type(6) span:last-child{background: #2ECC71}
+
+
+img#mo7amed{
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+img#mo7amed:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 5px 5px 15px #000
 }

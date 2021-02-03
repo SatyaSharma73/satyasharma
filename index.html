@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/foundation.css" />
   <script src="js/vendor/modernizr.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+
   <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/font.css" />
@@ -168,7 +169,7 @@
             <p class="desc">
               Check out all my projects on GitHub
             </p>
-            <img src="https://media.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif" alt="">
+            <img src="https://media.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif" class="git-gif" alt="">
             <a class="btn project" href="https://github.com/SatyaSharma73" target="_blank">Visit now</a>
           </li>
         </ul>
@@ -178,8 +179,45 @@
   <section class="myskills" id="myskills">
     <div class="row alignCenter">
       <h1>Skills.</h1>
-      <div class="skills">
-      </div>
+      <div class="skillss">
+
+  <div class="skill">
+                    <div>
+                        <span>HTML</span>
+                        <span class="progress">55%</span>
+                    </div>
+
+                    <div>
+                        <span>CSS3</span>
+                        <span class="progress">45%</span>
+                    </div>
+
+                    <div>
+                        <span>Javascript</span>
+                        <span class="progress">65%</span>
+                    </div>
+
+                    <div>
+                        <span>Python</span>
+                        <span class="progress">70%</span>
+                    </div>
+
+                    <div>
+                        <span>Django</span>
+                        <span class="progress">35%</span>
+                    </div>
+
+                    <div>
+                        <span>Mysql</span>
+                        <span class="progress">55%</span>
+                    </div>
+
+
+                </div>
+
+</div>
+
+
       <div class="downloadCV">
         <p>
           Download my Resume
@@ -280,7 +318,7 @@
           <b>No <i class="fa fa-copyright"></i> copyright issues.</b><br>
           Feel free to copy. If you need any help, ping me !
         </p> -->
-        <img src="https://media.giphy.com/media/zhrlcZJsvQWDm/giphy.gif" alt="">
+        <img src="https://media.giphy.com/media/zhrlcZJsvQWDm/giphy.gif" class="lastgif" alt="">
       </div>
       <div class="large-4 columns">
         <p class="footTitle alignCenter">
@@ -376,6 +414,19 @@ counter"></a></div>
     ga('create', 'UA-36122972-4', 'auto');
     ga('send', 'pageview');
 
+    window.onload = function () {
+        'use strict';
+
+        var progreeBar = document.getElementsByClassName("progress");
+
+            progreeBar[0].style.width = "46%";
+            progreeBar[1].style.width = "36%";
+            progreeBar[2].style.width = "52%";
+            progreeBar[3].style.width = "59%";
+            progreeBar[4].style.width = "30%";
+            progreeBar[5].style.width = "45%";
+
+    };
   </script>
 </body>
 

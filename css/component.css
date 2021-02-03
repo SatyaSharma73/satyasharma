@@ -1,6 +1,6 @@
 .cbp-fwslider {
 	position: relative;
-	margin: 0 0 10px;
+
 	overflow: hidden;
 	padding: 0px 0 45px;
 	  margin-bottom: 55px;
@@ -29,7 +29,7 @@
 	display: block;
 	text-align: center;
 	outline: none;
-	
+
 }
 
 
@@ -62,7 +62,7 @@
 }
 
 .cbp-fwslider nav span:hover {
-	
+
 	opacity: 1;
 }
 
@@ -429,6 +429,10 @@ input[type=text]::-ms-clear {
 	.simform {
 		font-size: 1.2em;
 	}
+	.name{
+		padding-top: 50px;
+	}
+	
 }
 
 
@@ -468,7 +472,7 @@ section.intro{
   section.intro h1{
       margin-top: 0px;
         font-size: 35px;
-       
+
   }
   .iama ,
   .cd-words-wrapper {
