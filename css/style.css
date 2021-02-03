@@ -597,7 +597,7 @@ hr {
   border:0px solid !important;
   border-color:#c0c0c0;
 }
-@media only screen and (min-width:40.063em) and (max-width:64em) {
+@media only screen and (min-width:960px) and (max-width:64em) {
   ul.menu li {
     margin-left:20px;
   }
@@ -609,7 +609,25 @@ hr {
     margin:0;
     text-align: center;
   }
-
+  .numbers-wrapper h4 {
+    /*font-family:"Roboto Slab","PT Serif","PT Sans","Times New Roman",sans-serif;*/
+    font-size:1.5rem;
+    color:#009ca8;
+  }
+  .numbers-inner-wrapper {
+    display: inline-flex;
+    max-width: 1150px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+  .numbers-inner-wrapper>div {
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+    padding-right: 50px;
+  }
 }
 @media only screen and (max-width:40em) {
   ul.menu {
@@ -634,6 +652,14 @@ hr {
   ul.tools,ul.lang,ul.hobbies {
     margin:0;
     text-align: center;
+  }
+  .numbers-inner-wrapper {
+    display: inline-flex;
+    max-width: 1150px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 10%;
   }
 }
 @media only screen and (max-width:320px) {
