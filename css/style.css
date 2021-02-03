@@ -653,14 +653,9 @@ hr {
     margin:0;
     text-align: center;
   }
-  .numbers-inner-wrapper {
-    display: inline-flex;
-    max-width: 1150px;
-    margin: 0px auto;
-    margin-top: 20px;
-    padding-left: 15%;
-    padding-right: 10%;
-  }
+  
+
+
 }
 @media only screen and (max-width:320px) {
   section.intro h1 {
