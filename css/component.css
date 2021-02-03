@@ -58,7 +58,7 @@
   margin-top: -50px;
   line-height: 100px;
   cursor: pointer;
-  opacity: 0.5
+  opacity: 100;
 }
 
 .cbp-fwslider nav span:hover {
@@ -432,7 +432,7 @@ input[type=text]::-ms-clear {
 	.name{
 		padding-top: 50px;
 	}
-	
+
 }
 
 
