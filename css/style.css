@@ -34,7 +34,7 @@ h4 {
   text-align:center;
 }
 .work1{
-  height: 480px;
+  height: 475px;
   width: 1000px;
 }
 p {
@@ -349,6 +349,7 @@ section.projects h1 {
   font-family:'ProximaNovaT';
   font-size:50px;
   margin-top:20px;
+  margin-bottom: 20px;
 }
 section.projects p {
   color:#fff;
