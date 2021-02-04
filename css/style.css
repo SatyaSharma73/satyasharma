@@ -730,7 +730,7 @@ hr {
     width: 325px;
   }
 }
-@media only screen and (max-width:360px) and (min-width:330px) {
+@media only screen and (max-width:360px) and (min-width:341px) {
   section.intro h1 {
     font-size:38px !important;
   }
@@ -741,11 +741,11 @@ hr {
     width: 100px;
   }
   .work1{
-    height: 150px;
-    width: 325px;
+    height: 145px;
+    width: 320px;
   }
 }
-@media only screen and (max-width:325px) {
+@media only screen and (max-width:339px) {
   section.intro h1 {
     font-size:38px !important;
   }
