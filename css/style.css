@@ -717,6 +717,37 @@ hr {
   }
 }
 
+@media only screen and (max-width:360px) {
+  section.intro h1 {
+    font-size:38px !important;
+  }
+  .git-gif{
+    width: 50px;
+  }
+  .lastgif{
+    width: 100px;
+  }
+  .work1{
+    height: 150px;
+    width: 325px;
+  }
+}
+@media only screen and (max-width:420px) {
+  section.intro h1 {
+    font-size:38px !important;
+  }
+  .git-gif{
+    width: 50px;
+  }
+  .lastgif{
+    width: 100px;
+  }
+  .work1{
+    height: 150px;
+    width: 325px;
+  }
+}
+
 @media only screen and (max-width:64em) {
   .opl,.cssda {
     display:none;
