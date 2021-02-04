@@ -709,7 +709,7 @@ hr {
     width: 50px;
   }
   .lastgif{
-    width: 100px;
+    width: 2px;
   }
 }
 
@@ -864,7 +864,7 @@ section.numbers-wrapper {
 }
 .alignCenter {
   text-align:center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 span.title {
   font-family:'Sacramento',cursive !important;
