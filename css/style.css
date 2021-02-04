@@ -745,7 +745,7 @@ hr {
     width: 325px;
   }
 }
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:326px) {
   section.intro h1 {
     font-size:38px !important;
   }
