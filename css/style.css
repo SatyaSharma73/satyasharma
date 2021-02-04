@@ -695,7 +695,9 @@ hr {
     width: 480px;
   }
 
-
+.prog_font{
+  font-size: 0.6rem;
+}
 
 }
 @media only screen and (max-width:320px) {
@@ -912,6 +914,11 @@ html,body{
   padding: 0;
   height: 100%;
 }
+
+
+/*
+The Skills Section */
+
 .skillss{
     text-align: center;
     color: #333;
