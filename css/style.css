@@ -701,7 +701,7 @@ hr {
 
 
 }
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:390px) {
   section.intro h1 {
     font-size:38px !important;
   }
@@ -709,7 +709,11 @@ hr {
     width: 50px;
   }
   .lastgif{
-    width: 2px;
+    width: 100px;
+  }
+  .work1{
+    height: 200px;
+    width: 350px;
   }
 }
 
