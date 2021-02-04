@@ -699,6 +699,7 @@ hr {
   font-size: 0.6rem;
 }
 
+
 }
 @media only screen and (max-width:320px) {
   section.intro h1 {
@@ -863,6 +864,7 @@ section.numbers-wrapper {
 }
 .alignCenter {
   text-align:center;
+  padding-bottom: 10px;
 }
 span.title {
   font-family:'Sacramento',cursive !important;
@@ -890,6 +892,10 @@ span.title {
 .fa-instagram {
   font-size:3em !important;
   color:#d14836;
+}
+.fork{
+  font-size:3em !important;
+  color:black;
 }
 .pad10 {
   padding:10px;
